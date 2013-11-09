@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style/style1.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+<div class="container">
+
+<div id="header">
+  <div id ="link"><a href="First.html">web大作业</a></div>
+  <div id ="topbar">  
+    <div id="hlinks">
+       <span><a href="register.html">注册</a></span>
+        <span><a href="Login.html">登陆</a></span>
+    </div>
+   
+    <div id="search">
+    <form id="search" action="php/search.php" method="get">
+      <input type="text" name="searchcondition">
+      <input type="submit" name="submit" value="搜索"> 
+    </form>
+  </div>
+  </div>
+  <br class="cbt">
+
+  <div id="menu">
+    <div class="nav">
+    <ul>
+      <li><a href="question.html">问题</a></li>
+      <li><a href="tags.html">标签</a></li>
+     <li><a href="users.html">用户</a></li>
+    </ul>
+  </div>
+  
+  <div class="nav">
+    <ul><li><a href="askquestion.html">提问</a></li></ul>
+  </div>
+</div>
+
+</div>
+
+<div id="content">
+  <form >
+    <div id="editor">
+     <div id="editor-title">
+      题目：
+      <input type="text" name="questiontitle" size="102 " placeholder="请清楚的描述你的问题">
+      </div>
+      <div id="buttonbar">
+        <input type="file" name="file" name="插入图片" >
+      </div>
+      <textarea id="wmd-input" class="wmd-input processed" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea>
+      <div>
+        <input type="submit" name="submit" value="提交问题">
+      </div>
+  </div>
+  </form>
+  
+
+</div>
+
+
+ 
+
+</div>
+
+</div>
+
+</body>
+
+</html>
